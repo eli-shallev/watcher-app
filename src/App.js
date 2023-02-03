@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, HashRouter as Router, Switch } from 'react-router-dom';
+import './assets/scss/main.scss'
+import { AppHeader } from './cmps/app-header';
+import { WatcherDetalis } from './views/watcher-details';
+import { WatcherEdit } from './views/watcher-edit';
+import { WatcherIndex } from './views/watcher-index';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="main-app">
+        <AppHeader />
+        <main className='container'>
+          <Switch>
+            <Route path="/watcher/edit/:id?" component={WatcherEdit} />
+            <Route path="/watcher/:id" component={WatcherDetalis} />
+            <Route path="/" component={WatcherIndex} />
+          </Switch>
+        </main>
+        <footer>
+          <section className='container'>
+            AnyRights 2023 &copy;
+          </section>
+        </footer>
+
+      </div>
+    </Router>
   );
 }
 
