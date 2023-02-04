@@ -1,3 +1,20 @@
-.app-header{
-    
+.app-header {
+    background-color: $clr1;
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+    .container {
+        width: 100%;
+
+        .logo {
+            font-weight: 1000;
+            font-family: cursive;
+        }
+    }
+}
+
+footer {
+    background-color: $clr1;
+    text-align: center;
 }

@@ -1,14 +1,18 @@
-import { Component } from "react";
-
-export class WatcherList extends Component{
+import { WatcherPreview } from "./watcher-preview"
 
 
-    render(){
+export function WatcherList({ watchers }) {
 
-        return(
-            <section className="watcher-list">
-                
-            </section>
-        )
-    }
+
+
+    return (
+        <section className="watcher-list simple-cards-grid">
+            {watchers.map(watcher => {
+               return <WatcherPreview
+                    key={watcher.id}
+                    watcher={watcher}
+                />
+            })}
+        </section>
+    )
 }
