@@ -87,6 +87,20 @@
     }
 }
 
+@mixin regularBtn {
+    border: none;
+    color: $clr4;
+    background-color: $clr2;
+    font-size: 1em;
+    width: fit-content;
+    padding: 0.2em 0.5em;
+    border-radius: 1em;
+
+    &:hover{
+        color: darken($color: $clr4, $amount: 15);
+    }
+}
+
 // Mixin for removing hover effects on iphone screen
 @mixin hover-supported {
     @media not all and (pointer: coarse) {

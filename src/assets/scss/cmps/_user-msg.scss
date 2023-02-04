@@ -1,0 +1,35 @@
+.user-msg {
+    background-color: $clr1;
+    padding: .2em .5em;
+    position: fixed;
+    top: 80px;
+    left: 1em;
+    // color: white;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    box-shadow: 0 0 2px 0 black;
+
+    // span{
+    //     height: 28px;
+    // }
+
+    button {
+        @include transparentBtn;
+        // font-size: 1em;
+        float: right;
+        margin: 0;
+        margin-inline-start: 1em;
+
+        
+    }
+
+    &.success {
+        background-color: #045c04;
+    }
+
+    &.error {
+        background-color: #dc334f;
+    }
+}

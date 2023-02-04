@@ -6,15 +6,16 @@
     overflow: hidden;
     text-align: center;
 
-    .avatar{
+    .avatar {
         cursor: pointer;
         border-radius: 0.5em;
-        &:hover{
+
+        &:hover {
             box-shadow: inset 0 0 0 100px rgba(255, 255, 255, 0.05);
         }
     }
 
-    .btn-remove {
+    .btn-remove,.btn-edit {
         position: absolute;
         bottom: em(16px, 20.8px);
         right: em(16px, 20.8px);
@@ -23,7 +24,17 @@
         transition: translate 0.2s;
     }
 
-    &:hover .btn-remove{
-        translate: 0;
+    .btn-edit {
+        left: em(16px, 20.8px);
+        translate: -300%;
+        width: fit-content;
+    }
+
+    &:hover {
+
+        .btn-edit,
+        .btn-remove {
+            translate: 0;
+        }
     }
 }

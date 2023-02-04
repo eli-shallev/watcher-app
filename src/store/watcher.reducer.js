@@ -24,12 +24,12 @@ export function watcherReducer(state = INITIAL_STATE, action) {
         case REMOVE_WATCHER:
             return {
                 ...state,
-                watchers: state.watchers.filter(watcher => watcher._id !== action.watcherId)
+                watchers: state.watchers.filter(watcher => watcher.id !== action.watcherId)
             }
         case UPDATE_WATCHER:
             return {
                 ...state,
-                watchers: state.watchers.map(watcher => watcher._id === action.watcher._id ? action.watcher : watcher)
+                watchers: state.watchers.map(watcher => watcher.id === action.watcher.id ? action.watcher : watcher)
             }
 
         default:

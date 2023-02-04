@@ -1,3 +1,47 @@
-.watcher-edit{
-    
+.watcher-edit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    h1{
+        font-weight: 700;
+        color: $clr2;
+    }
+
+    form {
+        margin-top: 3em;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+
+        input {
+            color: $clr4;
+        }
+
+        .btn-container {
+            display: flex;
+            justify-content: space-between;
+
+            .btn-add,
+            .btn-cancel {
+                @include regularBtn;
+                padding: 0.5em 0.75em;
+                font-size: 1.3em;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.MuiAutocomplete-root,
+.MuiFormControl-root {
+    background-color: $clr2;
+    border-radius: 0.5em;
+    color: $clr4;
+}
+
+.MuiAutocomplete-listbox,
+.MuiAutocomplete-noOptions {
+    background-color: $clr2;
+    color: $clr4;
 }

@@ -1,6 +1,7 @@
 import { Route, HashRouter as Router, Switch } from 'react-router-dom';
 import './assets/scss/main.scss'
 import { AppHeader } from './cmps/app-header';
+import { UserMsg } from './cmps/user-msg';
 import { WatcherDetalis } from './views/watcher-details';
 import { WatcherEdit } from './views/watcher-edit';
 import { WatcherIndex } from './views/watcher-index';
@@ -22,7 +23,7 @@ function App() {
             AnyRights 2023 &copy;
           </section>
         </footer>
-
+        <UserMsg/>
       </div>
     </Router>
   );

@@ -1,7 +1,7 @@
 import { WatcherPreview } from "./watcher-preview"
 
 
-export function WatcherList({ watchers }) {
+export function WatcherList({ watchers, onRemoveWatcher }) {
 
 
 
@@ -11,6 +11,7 @@ export function WatcherList({ watchers }) {
                return <WatcherPreview
                     key={watcher.id}
                     watcher={watcher}
+                    onRemoveWatcher={onRemoveWatcher}
                 />
             })}
         </section>
