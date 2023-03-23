@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/watcher-app/static/css/main.6b807a5a.css",
-    "main.js": "/watcher-app/static/js/main.652b909d.js",
+    "main.js": "/watcher-app/static/js/main.8541fe30.js",
     "index.html": "/watcher-app/index.html",
     "main.6b807a5a.css.map": "/watcher-app/static/css/main.6b807a5a.css.map",
-    "main.652b909d.js.map": "/watcher-app/static/js/main.652b909d.js.map"
+    "main.8541fe30.js.map": "/watcher-app/static/js/main.8541fe30.js.map"
   },
   "entrypoints": [
     "static/css/main.6b807a5a.css",
-    "static/js/main.652b909d.js"
+    "static/js/main.8541fe30.js"
   ]
 }
