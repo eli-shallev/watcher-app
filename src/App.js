@@ -20,7 +20,7 @@ function App() {
         </main>
         <footer>
           <section className='container'>
-            AnyRights 2023 &copy;
+            Eli Shallev 2023 &copy;
           </section>
         </footer>
         <UserMsg/>
