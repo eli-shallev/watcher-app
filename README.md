@@ -1,70 +1,62 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# WatcherApp
+A simple CRUDL app demonstrating the use of react classes
+[Take a look, it's on Github pages](https://eli-shallev.github.io/watcher-app/#/ "Github pages link")
 
-## Available Scripts
+![Homepage image](https://raw.githubusercontent.com/eli-shallev/watcher-app/main/screenshots/index.png "Homepage image")
+___
 
-In the project directory, you can run:
+### Table of Contents
+- [Description](#description)
+- [Features](#features)
+- [Getting started](#getting-started)
+- [Showcase](#showcase)
 
-### `npm start`
+## Description
+I decided to build a simple CRUDL app based on react classes in order to practice the use of classes in react because most of my react apps use mostly functions. I want to keep expanding my knowladge and try new chalanges. That was **my motivation.** 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+And a bit about the project - a small App that was built in a few days, showing a streaming service users menu with basic crudl of users.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You are more than welcome to ***check it out*** - [right here](https://eli-shallev.github.io/watcher-app/#/ "Github pages link")
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+#### Technologies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React.js
+- Redux
+- React-Router
+- Sass
+- React CLI & Github pages
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting started
+Clone the project or dowload the files on top.
+```
+git clone https://github.com/eli-shallev/watcher-app.git
+```
+Open the terminal and enter the following line to install necessary packages:
+```
+npm install 
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Enter the following line to run it locally on your computer:
+```
+npm start 
+```
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
 
-### `npm run eject`
+## Showcase
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### User details page
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![User details page](https://raw.githubusercontent.com/eli-shallev/watcher-app/main/screenshots/details.png "User details page")
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### User create/update page
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![User create/update page](https://raw.githubusercontent.com/eli-shallev/watcher-app/main/screenshots/edit.png "User create/update page")
 
-## Learn More
+### Some mobile!
+Just a taste of the mobile experience. The app is completely responsive and fluid
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="https://raw.githubusercontent.com/eli-shallev/watcher-app/main/screenshots/index-m.png" width="33%" style="float: left"/><img src="https://raw.githubusercontent.com/eli-shallev/watcher-app/main/screenshots/details-m.png" width="33%" style="float: left;"/><img src="https://raw.githubusercontent.com/eli-shallev/watcher-app/main/screenshots/edit-m.png" width="33%" style="float: left;"/>
